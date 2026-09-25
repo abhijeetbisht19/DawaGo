@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abhijeet Bisht</title>
+    <meta name="description" content="Software engineer. GitHub Pages starter site." />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0b1020;
+        --card: #141a2e;
+        --text: #e8edf7;
+        --muted: #9aa6c1;
+        --accent: #7c9cff;
+        --line: rgba(255, 255, 255, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        background:
+          radial-gradient(1200px 500px at 10% -10%, #1c2a5a 0%, transparent 55%),
+          var(--bg);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 72px 24px;
+      }
+
+      .kicker {
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        color: var(--accent);
+        margin: 0 0 12px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 5vw, 3rem);
+        line-height: 1.1;
+      }
+
+      p {
+        margin: 0 0 28px;
+        color: var(--muted);
+        line-height: 1.6;
+        font-size: 1.05rem;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 20px 22px;
+      }
+
+      .card h2 {
+        margin: 0 0 8px;
+        font-size: 1rem;
+      }
+
+      .card p {
+        margin: 0;
+        font-size: 0.95rem;
+      }
+
+      footer {
+        margin-top: 40px;
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="kicker">GitHub Pages</p>
+      <h1>Abhijeet Bisht</h1>
+      <p>
+        Software engineer. This is a single-file site you can push to a GitHub
+        repository and publish from Settings → Pages.
+      </p>
+      <div class="card">
+        <h2>Live check</h2>
+        <p>
+          After you enable Pages on the <code>main</code> branch, this page
+          should appear at
+          <code>https://&lt;username&gt;.github.io/&lt;repo&gt;/</code>.
+        </p>
+      </div>
+      <footer>Replace this copy with your own bio, links, and projects.</footer>
+    </main>
+  </body>
+</html>
